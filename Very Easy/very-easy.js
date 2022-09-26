@@ -1,4 +1,10 @@
-console.log(Math.min(2, 9));
-// Output should be 2
-console.log(Math.min(288, 134));
-// Output should be 134
+function min(x, y) {
+  if (x < y) {
+    return x;
+  } else {
+    return y;
+  }
+}
+
+console.log(min(300, 14));
+console.log(min(20, 144));
